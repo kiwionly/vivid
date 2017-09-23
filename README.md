@@ -2,7 +2,7 @@
 Vivid = Google Vision java Client
 =================================
 
-Vivid is a simple Google Vision java client which much simple api and less dependencies
+Vivid is a simple Google Vision java client with much simple api and less dependencies.
 
 ```sh
 	   RequestBuilder builder = new RequestBuilder()
@@ -23,6 +23,8 @@ Vivid is a simple Google Vision java client which much simple api and less depen
 		assertTrue(ann.getText().contains("3.81730"));
 		assertTrue(ann.getText().contains("永泰饼家"));
 ```
+
+dependecies:
 
 ```sh
 	compile 'com.alibaba:fastjson:1.+'
