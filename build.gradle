@@ -1,0 +1,16 @@
+
+apply plugin: 'java'
+
+version = 1.0
+
+repositories { 
+    mavenCentral()
+}
+
+dependencies {       
+
+	compile 'com.alibaba:fastjson:1.+'
+	compile 'com.squareup.okhttp3:okhttp:3.+'
+	
+    compile 'junit:junit:+'    
+}
