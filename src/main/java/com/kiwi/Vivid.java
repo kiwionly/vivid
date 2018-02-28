@@ -51,8 +51,8 @@ public class Vivid
 		Response response = okHttpClient.newCall(request).execute();
 
 		String resultJson = response.body().string();
-		
-		if(resultJson.contains("error"))
+
+		if(response.code() != 200)
 		{			
 			Errors errors = JSON.parseObject(resultJson, errorType);
 			
