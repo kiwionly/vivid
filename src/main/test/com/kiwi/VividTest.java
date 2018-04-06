@@ -26,7 +26,7 @@ import com.kiwi.response.TextAnnotation;
 
 public class VividTest
 {		
-	private static final String key = "AIzaSyAtZOz5_ndljG1lMeC2-kTE9TzrXmZUU9s";
+	private static final String key = "AIzaSyB7Nluk1c3ds2BqcGLhBzoIIoJnEVReLPk";
 	private Vivid vivid;
 		
 	private static final String TEST_DIR = "src/main/test/";

@@ -1,5 +1,7 @@
 package com.kiwi.response;
 
+import java.util.List;
+
 public class Errors
 {
 	private Error error;
@@ -19,6 +21,7 @@ public class Errors
 		private int code;
 		private String message;
 		private String status;
+		private List<Detail> details;
 				
 		public int getCode()
 		{
@@ -57,6 +60,10 @@ public class Errors
 		}		
 	}
 
+	static class Detail {
+	    
+	}
+	
 	@Override
 	public String toString()
 	{
