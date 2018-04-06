@@ -4,7 +4,7 @@ language: java
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $it3AQVXVsyRVqIW4ly7lrA  # Set in travis-ci.org dashboard, marked secure
+  github-token: it3AQVXVsyRVqIW4ly7lrA  # Set in travis-ci.org dashboard, marked secure
   keep-history: true
   on:
     branch: master
